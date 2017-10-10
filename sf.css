@@ -63,4 +63,4 @@ body.IE7 .Switch.Round { width: 1px; }
 	left: 3%;
 	background: #33d2da;
 }
-.Switch.Round.On .Toggle { left: 58%; }
+.Switch.Round.On .Toggle { left: 58%;  background: #33d2da;}
