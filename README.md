@@ -26,13 +26,16 @@ ex:
 Default  switch on/off
 ```
 <input type="checkbox" id="teste" />
+jQuery("#teste").sf();
 ```
 Custom label
 ```
 <input type="checkbox" id="maisum" />
+jQuery("#maisum").sf({onLabel:'liga'});
 ```
 Custom rounded switch on/off button
 ```
 <input type="checkbox" id="outro" />
+jQuery("#outro").sf({rounded:true});
 ```
 
