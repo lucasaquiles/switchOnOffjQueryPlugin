@@ -23,7 +23,7 @@ jQuery.fn.sf = function(options){
 
 	jQuery(function(){
 
-		jQuery('.Switch').unbind().click(function(e){
+		jQuery('.Switch').off().click(function(e){
 			console.log(e.currentTarget);
 			// Check If Enabled (Has 'On' Class)
 			if (jQuery(this).hasClass('On')){
