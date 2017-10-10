@@ -48,30 +48,7 @@ jQuery.fn.sf = function(options){
 		});
 	})
 	
-		// jQuery('.Switch').click(function(e) {
-		// 	console.log(e.currentTarget);
-		// 	// Check If Enabled (Has 'On' Class)
-		// 	if (jQuery(e.currentTarget).hasClass('On')){
-				
-		// 		// Try To Find Checkbox Within Parent Div, And Check It
-		// 		jQuery(this).parent().find('input:checkbox').attr('checked', true);
-				
-		// 		// Change Button Style - Remove On Class, Add Off Class
-		// 		jQuery(this).removeClass('On').addClass('Off');
-				
-		// 	} else { // If Button Is Disabled (Has 'Off' Class)
-			
-		// 		// Try To Find Checkbox Within Parent Div, And Uncheck It
-		// 		jQuery(this).parent().find('input:checkbox').attr('checked', false);
-				
-		// 		// Change Button Style - Remove Off Class, Add On Class
-		// 		jQuery(this).removeClass('Off').addClass('On');
-				
-		// 	}
-			
-		// });
-		
-		
+	
 	
 		}
 
