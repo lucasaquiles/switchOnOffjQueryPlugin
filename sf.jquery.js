@@ -44,17 +44,21 @@ jQuery.fn.sf = function(options){
 				
 			}
 
+			
+			opts.callback();
+
 			e.preventDefault();
 		});
 	})
 	
-	
+	return jQuery(this);
 	
 		}
 
 	jQuery.fn.sf.defaults = {
 		    onLabel: "On",
 		    offLabel: "Off",
-        rounded:false
+        	rounded:false,
+        	callback:function(){}
 	};
 

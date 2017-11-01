@@ -8,17 +8,16 @@
   crossorigin="anonymous"></script>
 
   <script src="sf.jquery.js"></script>
-
-   <link rel="stylesheet" type="text/css" href="sf.css">
+  <link rel="stylesheet" type="text/css" href="sf.css">
 
 <script type="text/javascript">
 	jQuery(document).ready(function(){
   
-  
-  jQuery("#outro").sf({rounded:true});
-  jQuery("#teste").sf();
-  jQuery("#maisum").sf({onLabel:'liga'});
-})
+    jQuery("#input3").sf({rounded:true});
+    jQuery("#input1").sf();
+    jQuery("#input4").sf({callback:function(){alert("Oi, sumida!");}});
+    jQuery("#input2").sf({onLabel:'liga'}).show();
+  })
 </script>
 </head>
 
@@ -26,14 +25,17 @@
 
 
 <p>Default  switch on/off</p>
-<input type="checkbox" id="teste" />
+<input type="checkbox" id="input1" />
 
 <p>Custom label</p>
-<input type="checkbox" id="maisum" />
+<input type="checkbox" id="input2" />
 
 <p>Custom rounded switch on/off button</p>
-<input type="checkbox" id="outro" />
+<input type="checkbox" id="input3" />
 
+
+<p>Trigger callback function</p>
+<input type="checkbox" id="input4" />
 
 </body>
 </html>
