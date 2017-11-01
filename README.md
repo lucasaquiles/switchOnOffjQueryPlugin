@@ -39,3 +39,9 @@ Custom rounded switch on/off button
 jQuery("#outro").sf({rounded:true});
 ```
 
+Callback function
+```
+<input type="checkbox" id="input4" />
+ jQuery("#input4").sf({callback:function(){alert("Oi, sumida!");}});
+```
+ 
