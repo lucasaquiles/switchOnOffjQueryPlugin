@@ -2,7 +2,7 @@
 
 jQuery plugin to creates switch button just mapping checkbox input
 
-dependencyes
+dependencies
 
 ```
 <script
